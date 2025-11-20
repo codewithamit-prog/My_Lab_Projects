@@ -10,7 +10,8 @@ int main(){
     printf("Enter Acceleration (in m/s^2) =");
     scanf("%f" , &Acceleration);
     
-    printf("Force is : %f" ,  Mass * Acceleration );
+    printf("Force is : %fN" ,  Mass * Acceleration );
      
     return 0;
+
 }
